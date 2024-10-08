@@ -1,6 +1,6 @@
 # Обход дискорда
 
-![logo](https://github.com/YanGusik/FuckDiscordPI/blob/master/logo.png?raw=true)
+![logo](https://github.com/YanGusik/FuckDiscordPI/blob/master/logo.png)
 
 За основу взять https://github.com/bol-van/zapret
 
