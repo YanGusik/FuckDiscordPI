@@ -3,3 +3,5 @@
 
 Запустите discord.bat
 Все
+
+Канал: https://t.me/yan_gusik
