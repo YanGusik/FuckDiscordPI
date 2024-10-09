@@ -1,5 +1,13 @@
-discord-attachments-uploads-prd.storage.googleapis.com
+*.discord.com
+*.discord.gg
+*.discord.media
+*.discordapp.com
+*.discordapp.net
+cdn.discordapp.com
 dis.gd
+discord-activities.com
+discord-attachments-uploads-prd.storage.googleapis.com
+discord.app
 discord.co
 discord.com
 discord.design
@@ -11,13 +19,19 @@ discord.media
 discord.new
 discord.store
 discord.tools
+discordactivities.com
 discordapp.com
 discordapp.net
+discordcdn.com
 discordmerch.com
 discordpartygames.com
-discord-activities.com
-discordactivities.com
 discordsays.com
+discordstatus.com
+gateway.discord.gg
+images-ext-1.discordapp.net
+media.discordapp.net
+www.discord.app
+www.discord.com
 
 185.50.107.211
 162.245.207.215
