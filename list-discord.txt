@@ -32,3 +32,4 @@ images-ext-1.discordapp.net
 media.discordapp.net
 www.discord.app
 www.discord.com
+cloudflare-ech.com
