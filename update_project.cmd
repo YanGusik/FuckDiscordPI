@@ -48,17 +48,22 @@ if "!local_version!" neq "!github_version!" (
     echo Скачиваю архив с последней версией...
     curl -L -o %temp_zip_file% https://github.com/YanGusik/FuckDiscordPI/archive/refs/heads/main.zip
 
-    :: Распаковываем архив
+    :: Распаковываем архив в папку проекта, исключая лишнюю вложенную папку
     echo Распаковываю обновление...
-    powershell -Command "Expand-Archive -Path '%temp_zip_file%' -DestinationPath '%project_folder%'"
+    powershell -Command "Expand-Archive -Path '%temp_zip_file%' -DestinationPath '%temp%\update_folder'"
+    
+    :: Перемещаем файлы из распакованного архива в папку проекта
+    echo Перемещаем файлы в папку проекта...
+    xcopy /E /I /Y "%temp%\update_folder\FuckDiscordPI-main\*" "%project_folder%"
+
+    :: Удаляем временную папку и файлы
+    rmdir /S /Q "%temp%\update_folder"
+    del "%temp_version_file%"
+    del "%temp_zip_file%"
 
     echo Обновление завершено!
 ) else (
     echo Версии совпадают! Обновление не требуется.
 )
-
-:: Удаляем временные файлы
-del "%temp_version_file%"
-del "%temp_zip_file%"
 
 pause
