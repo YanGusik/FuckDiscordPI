@@ -41,7 +41,8 @@ echo 7 - Discord alternative 2
 echo 8 - Discord alternative 3
 echo 9 - Discord alternative 4
 echo 10 - Discord alternative 5
-echo 11 - For Develop
+echo 11 - Youtube+Discord+AutoHostLists
+echo 12 - For Develop
 set /p choice="Введите номер (или нажмите Enter для использования последнего выбора): "
 
 REM Использование последнего выбора, если ничего не введено
@@ -81,8 +82,10 @@ if "!choice!"=="1" (
 ) else if "!choice!"=="10" (
     set "input_file=%ARGS%discord_alternative_5.txt"
 ) else if "!choice!"=="11" (
+    set "input_file=%ARGS%discord_alternative_6.txt"
+) else if "!choice!"=="12" (
     set "input_file=%ARGS%discord_test.txt"
-)else (
+) else (
     echo Неверный выбор!
     exit /b
 )
