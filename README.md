@@ -46,11 +46,6 @@
 ## Первоисточник
 Форк с https://github.com/bol-van/zapret
 
-## Благодарность
-Я был бы рад если подпишитесь на ТГ и напишите фидбек. \
-TG канал: https://t.me/yan_gusik
-
-
 ## Похожие проекты
 
 - **[zapret](https://github.com/bol-van/zapret)** by @bol-van (for MacOS, Linux and Windows)
